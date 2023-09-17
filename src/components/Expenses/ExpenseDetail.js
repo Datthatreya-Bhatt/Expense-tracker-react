@@ -1,6 +1,8 @@
-import './ExpenseItem.css'
+import React from 'react';
 
-function ExpenseDetail(props){
+import './ExpenseItem.css';
+
+const ExpenseDetail = (props) =>{
 
     return (
         <div className="expense-item__description">
@@ -12,3 +14,4 @@ function ExpenseDetail(props){
 }
 
 export default ExpenseDetail;
+
