@@ -9,8 +9,6 @@ const ExpenseItem = (props) =>{
    
 
     const [title, setTitle] = useState(props.title);
-
-    const [amount, setAmount] = useState(props.amount);
     
 
     const clickhandler = ()=>{
@@ -18,18 +16,13 @@ const ExpenseItem = (props) =>{
         console.log(title)
     }
 
-    const clickButtonHandler = ()=>{
-        setAmount('100')
-
-    }
 
 
     return (
         <div className="expense-item">
             <ExpenseDate date={props.date}/>
-            <ExpenseDetail title={title} location={props.location} amount={amount}/>
+            <ExpenseDetail title={title} amount={props.amount}/>
             <button onClick={clickhandler}>Delete Expense</button>
-            <button onClick={clickButtonHandler}>Click</button>
         </div>
     )
 }
