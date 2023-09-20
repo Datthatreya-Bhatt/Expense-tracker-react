@@ -4,10 +4,10 @@ import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
 const DUMMY_EXPENSES = [
-  {id: '1', title: 'A', amount: 500, date: new Date(2021, 2,28)},
-  {id: '2', title: 'B', amount: 300, date: new Date(2021, 2,28)},
-  {id: '3', title: 'C', amount: 200, date: new Date(2021, 2,28)},
-  {id: '4', title: 'D', amount: 10, date: new Date(2021, 2,28)},
+  {id: '1', title: 'A', amount: 500, date: new Date(2021, 3,28)},
+  {id: '2', title: 'B', amount: 300, date: new Date(2021, 5,28)},
+  {id: '3', title: 'C', amount: 200, date: new Date(2021, 4,28)},
+  {id: '4', title: 'D', amount: 10, date: new Date(2021, 7,28)},
 ]
 
 function App() {
